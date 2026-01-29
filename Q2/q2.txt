@@ -1,0 +1,25 @@
+Validates:
+
+exactly one argument
+
+file exists
+
+file is readable
+
+Counts:
+
+total log entries
+
+INFO, WARNING, ERROR messages
+
+Finds:
+
+most recent ERROR entry
+
+Creates:
+
+logsummary_YYYY-MM-DD.txt
+
+Prints results and saves them to the report file
+
+Uses meaningful error messages
