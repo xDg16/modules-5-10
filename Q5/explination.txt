@@ -1,0 +1,8 @@
+Command: chmod +x sync.sh
+Explanation: Makes the sync.sh script executable so it can be run from the terminal.
+
+Command: ./sync.sh dirA dirB
+Explanation: Runs the script to compare dirA and dirB. The script lists files only present in dirA, files only present in dirB, and checks files present in both directories to determine whether their contents match using cmp.
+
+Command: ./sync.sh
+Explanation: Running the script without arguments prints a usage message because two directory paths are required.
