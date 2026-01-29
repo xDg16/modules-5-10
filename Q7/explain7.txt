@@ -1,4 +1,5 @@
 Purpose: metrics.sh generates basic text metrics (longest, shortest, average word length, unique-word count) from the text in input.txt.
+
 Command: chmod +x patterns.sh
 Explanation: Makes the patterns.sh script executable so it can be run from the terminal.
 
