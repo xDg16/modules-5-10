@@ -1,0 +1,13 @@
+nano signal_handling.c → creates the source file
+
+gcc signal_handling.c -o signal_handling → compiles it
+
+./signal_handling → runs it
+
+fork() → creates children
+
+kill() → sends signals
+
+signal() → handles signals
+
+exit() → graceful termination
