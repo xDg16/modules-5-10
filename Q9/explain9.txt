@@ -1,0 +1,51 @@
+1. nano zombie_prevention.c
+
+Function:
+Opens a text editor called nano and creates a file named zombie_prevention.c.
+
+nano = text editor
+
+zombie_prevention.c = C source file
+
+You use it to write your C program.
+
+2️. gcc zombie_prevention.c -o zombie_prevention
+
+Function:
+Compiles the C program into an executable file.
+
+gcc = GNU C Compiler
+
+zombie_prevention.c = input source file
+
+-o zombie_prevention = output executable name
+
+After this, you get a file called zombie_prevention.
+
+3️. ./zombie_prevention
+
+Function:
+Runs the compiled program.
+
+./ = current directory
+
+zombie_prevention = executable file
+
+Without ./, Linux won’t run it because it doesn’t trust random programs by name. Sensible system.
+
+4. ps -el | grep Z
+
+Function:
+Checks for zombie processes.
+
+ps = process status
+
+-e = show all processes
+
+-l = long format
+
+| = pipe output to another command
+
+grep Z = filter lines containing Z (zombie state)
+
+If nothing shows, no zombies exist. Peace restored.
