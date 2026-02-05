@@ -11,3 +11,6 @@ kill() → sends signals
 signal() → handles signals
 
 exit() → graceful termination
+
+Signal Handling:
+Explanation: SIGTERM triggers a graceful shutdown message, while SIGINT triggers an interrupt-specific message. Both signals are handled using a custom signal handler.
